@@ -1,4 +1,83 @@
-<script>
-<!-- code by https://www.html-code-generator.com -->
-document.write(unescape('%23%21/bin/ash%0A%23%20Installation%20script%20by%20ARYO.%0A%0ADIR%3D/usr/bin%0ACONF%3D/etc/config%0AMODEL%3D/usr/lib/lua/luci/model/cbi%0ACON%3D/usr/lib/lua/luci/controller%0AURL%3Dhttps%3A//raw.githubusercontent.com/saputribosen/1clickhuawei/main%0A%0A%0Ainstall_update%28%29%7B%0Aecho%20%22Update%20and%20install%20prerequisites%22%0Aclear%0Aopkg%20update%0Asleep%201%0Aclear%0Aopkg%20install%20python3-pip%0Asleep%201%0Aclear%0Apip3%20install%20requests%0Asleep%201%0Aclear%0Apip3%20install%20huawei-lte-api%0Asleep%201%0Apip%20install%20asyncio%20%26%26%20pip%20install%20python-telegram-bot%20%26%26%20pip%20install%20huawei-lte-api%20%26%26%20pip%20install%20requests%20%26%26%20opkg%20install%20git%20%26%26%20opkg%20install%20git-http%0Aclear%0A%7D%0A%0Afinish%28%29%7B%0Aclear%0A%09echo%20%22%22%0A%20%20%20%20echo%20%22INSTALL%20SUCCESSFULLY%20%3B%29%22%0A%20%20%20%20echo%20%22%22%0A%20%20%20%20sleep%203%0A%20%20%20%20clear%0A%20%20%20%20echo%20%22Youtube%20%3A%20ARYO%20BROKOLLY%22%0A%20%20%20%20echo%20%22%22%0A%20%20%20%20echo%20%22%22%0A%7D%0A%0Adownload_files%28%29%0A%7B%0A%20%20%20%20%09clear%0A%20%20%20%20%20%20%20%20mv%20%24DIR/huawei.py%20%24DIR/huawei_x.py%0A%09sleep%203%0A%20%20%09echo%20%22Downloading%20files%20from%20repo..%22%0A%20%20%20%09wget%20-O%20%24MODEL/huawey.lua%20%24URL/cbi_model/huawey.lua%0A%09clear%0A%20%20%20%20%20%20%20%20sleep%201%0A%20%09wget%20-O%20%24DIR/huawei.py%20%24URL/huawei.py%20%26%26%20chmod%20+x%20%24DIR/huawei.py%0A%20%20%20%20%20%20%20%20clear%0A%09sleep%201%0A%20%09wget%20-O%20%24DIR/huawei%20%24URL/huawei.sh%20%26%26%20chmod%20+x%20%24DIR/huawei%0A%20%20%20%20%20%20%20%20clear%0A%20%20%20%20%20%20%20%20sleep%201%0A%20%09wget%20-O%20%24CONF/huawey%20%24URL/huawey%0A%20%20%20%20%20%20%20%20clear%0A%20%20%20%20%20%20%20%20sleep%201%0A%20%20%09wget%20-O%20%24CON/huawey.lua%20%24URL/controller/huawey.lua%20%26%26%20chmod%20+x%20%24CON/huawey.lua%0A%20%09%09finish%0A%7D%0A%0A%0Aecho%20%22%22%0Aecho%20%22Instal%20prerequisites.%22%0Awhile%20true%3B%20do%0A%20%20%20%20read%20-p%20%22Do%20you%20want%20to%20continue%20%28y/n%29%3F%20%22%20yn%0A%20%20%20%20case%20%24yn%20in%0A%20%20%20%20%20%20%20%20%5BYy%5D*%20%29%20install_update%3B%20break%3B%3B%0A%20%20%20%20%20%20%20%20%5BNn%5D*%20%29%20exit%3B%3B%0A%20%20%20%20%20%20%20%20*%20%29%20echo%20%22Please%20answer%20%27y%27%20or%20%27n%27.%22%3B%3B%0A%20%20%20%20esac%0Adone%0A%0Aecho%20%22%22%0Aecho%20%22Install%20Script%20code%20from%20repo%20aryo.%22%0A%0Awhile%20true%3B%20do%0A%20%20%20%20read%20-p%20%22This%20will%20download%20the%20files.%20Do%20you%20want%20to%20continue%20%28y/n%29%3F%20%22%20yn%0A%20%20%20%20case%20%24yn%20in%0A%20%20%20%20%20%20%20%20%5BYy%5D*%20%29%20download_files%3B%20break%3B%3B%0A%20%20%20%20%20%20%20%20%5BNn%5D*%20%29%20exit%3B%3B%0A%20%20%20%20%20%20%20%20*%20%29%20echo%20%22Please%20answer%20%27y%27%20or%20%27n%27.%22%3B%3B%0A%20%20%20%20esac%0Adone%0A'));
-</script>
+#!/bin/ash
+# Installation script by ARYO.
+
+DIR=/usr/bin
+CONF=/etc/config
+MODEL=/usr/lib/lua/luci/model/cbi
+CON=/usr/lib/lua/luci/controller
+URL=https://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@raw.githubusercontent.com/saputribosen/1clickhuawei/main
+
+
+install_update(){
+echo "Update and install prerequisites"
+clear
+opkg update
+sleep 1
+clear
+opkg install python3-pip
+sleep 1
+clear
+pip3 install requests
+sleep 1
+clear
+pip3 install huawei-lte-api
+sleep 1
+pip install asyncio && pip install python-telegram-bot && pip install huawei-lte-api && pip install requests && opkg install git && opkg install git-http
+clear
+}
+
+finish(){
+clear
+	echo ""
+    echo "INSTALL SUCCESSFULLY ;)"
+    echo ""
+    sleep 3
+    clear
+    echo "Youtube : ARYO BROKOLLY"
+    echo ""
+    echo ""
+}
+
+download_files()
+{
+    	clear
+        mv $DIR/huawei.py $DIR/huawei_x.py
+	sleep 3
+  	echo "Downloading files from repo.."
+   	wget -O $MODEL/huawey.lua $URL/cbi_model/huawey.lua
+	clear
+        sleep 1
+ 	wget -O $DIR/huawei.py $URL/huawei.py && chmod +x $DIR/huawei.py
+        clear
+	sleep 1
+ 	wget -O $DIR/huawei $URL/huawei.sh && chmod +x $DIR/huawei
+        clear
+	sleep 1
+ 	wget -O $CONF/huawey $URL/huawey
+        clear
+        sleep 1
+  	wget -O $CON/huawey.lua $URL/controller/huawey.lua && chmod +x $CON/huawey.lua
+ 		finish
+}
+
+
+echo ""
+echo "Install prerequisites."
+read -p "Do you want to install prerequisites (y/n)? " yn
+case $yn in
+    [Yy]* ) install_update;;
+    [Nn]* ) echo "Skipping prerequisites installation...";;
+    * ) echo "Invalid input. Skipping prerequisites installation...";;
+esac
+
+echo ""
+echo "Install Script code from repo aryo."
+
+while true; do
+    read -p "This will download the files. Do you want to continue (y/n)? " yn
+    case $yn in
+        [Yy]* ) download_files; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer 'y' or 'n'.";;
+    esac
+done
