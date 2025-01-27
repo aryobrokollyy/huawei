@@ -5,7 +5,7 @@ DIR=/usr/bin
 CONF=/etc/config
 MODEL=/usr/lib/lua/luci/model/cbi
 CON=/usr/lib/lua/luci/controller
-URL=https://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@raw.githubusercontent.com/saputribosen/1clickhuawei/main
+URL=https://raw.githubusercontent.com/saputribosen/1clickhuawei/main
 
 
 install_update(){
