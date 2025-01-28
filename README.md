@@ -1,5 +1,13 @@
 #  Huawei Monitoring by Aryo Brokolly
 
+
+# Suport Modem
+- All Orbit
+- E5577 (Tested)
+- E5573 (Tested)
+- E3372 (Tested)
+- B310S (Tested)
+
 - Run installation script:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
