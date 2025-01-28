@@ -1,20 +1,22 @@
-# 1clickhuawei
-
-- Perenquities
-```
-opkg update && pip install asyncio && pip install python-telegram-bot && pip install huawei-lte-api && pip install requests && opkg install git && opkg install git-http
-```
-
-- UPGRADE API HUAWEI
-```
-pip install --upgrade huawei-lte-api requests urllib3
-```
-- Install asynsio
-```
-pip install asyncio && pip install python-telegram-bot && pip install huawei-lte-api && pip install requests php8-cli && pip install php8-mod-curl
-```
+#  huawei monitoring by Aryo Brokolly
 
 - Run installation script:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
+# Setting
+Service > Huawei
+Settings Modem
+- Router IP
+- Username
+- Password
+Telegram Bot
+- Telegram Token BOT
+- Chat ID
+- Message Thread ID (Topik Telegram)
+Duration
+- Ping Duration (s)
+- Modem Path (Location Script)
+
+Save & Apply First and Start Services
+
