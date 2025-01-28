@@ -39,6 +39,6 @@ Save & Apply First and Start Services
 # Dependency
 - API LTE Huawei
 - Python3
-- Python Telegram Bot
+- Telegram Bot
 
 
