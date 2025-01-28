@@ -10,7 +10,7 @@
 
   
 # How to Install
-- Run installation script:
+- Run installation script on terminal Openwrt:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
