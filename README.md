@@ -4,7 +4,7 @@
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
-# Setting
+# Settings Modem
 Service > Huawei
 
 Settings Modem
@@ -21,6 +21,11 @@ Duration
 - Ping Duration (s)
 - Modem Path (Location Script)
 
-
 Save & Apply First and Start Services
+
+# Dependency
+- API LTE Huawei
+- Python3
+- Python Telegram Bot
+
 
