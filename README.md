@@ -1,4 +1,4 @@
-#  huawei monitoring by Aryo Brokolly
+#  Huawei Monitoring by Aryo Brokolly
 
 - Run installation script:
 ```
