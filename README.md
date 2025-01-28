@@ -33,7 +33,7 @@ Duration
 
 Save & Apply First and Start Services
 
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="DONASI" width="350" height="470">
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="DONASI" width="auto" height="470">
 # Dependency
 - API LTE Huawei
 - Python3
