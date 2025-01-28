@@ -8,6 +8,8 @@
 - E3372 (Tested)
 - B310S (Tested)
 
+  
+# How to Install
 - Run installation script:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
