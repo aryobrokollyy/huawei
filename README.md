@@ -32,8 +32,10 @@ Duration
 - Modem Path (Location Script)
 
 Save & Apply First and Start Services
+<p>
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="DONASI" width="auto" height="570"></p>
 
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="DONASI" width="auto" height="570">
+
 # Dependency
 - API LTE Huawei
 - Python3
