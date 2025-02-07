@@ -32,10 +32,10 @@ clear
 pip install huawei-lte-api
 sleep 1
 clear
-pip install requests 
+pip install requests
 sleep 1
 clear
-opkg install git 
+opkg install git
 sleep 1
 clear
 opkg install git-http
@@ -46,15 +46,13 @@ clear
 finish(){
 clear
     echo ""
-    echo "HUAWEI MONITOR"
-    echo ""
+    echo "TOOLS : HUAWEI MONITOR"
     echo "INSTALL SUCCESSFULLY ;)"
     echo ""
     sleep 3
     echo "Youtube : ARYO BROKOLLY"
     echo ""
-    
-    sleep 3
+    sleep 5
     echo ""
 }
 
