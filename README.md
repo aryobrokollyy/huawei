@@ -42,5 +42,6 @@ Save & Apply First and Start Services
 - Telegram Bot
 
 
+# Cukup  1000 Rupiah
 <p>
 <img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/kyuris.jpg" alt="qris" width="auto" height="570"></p>
