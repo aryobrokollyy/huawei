@@ -44,4 +44,4 @@ Save & Apply First and Start Services
 
 # Cukup  1000 Rupiah
 <p>
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/kyuris.jpg" alt="qris" width="auto" height="570"></p>
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/1000.jpg" alt="qris1000" width="auto" height="560"></p>
