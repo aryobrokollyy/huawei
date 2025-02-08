@@ -15,25 +15,11 @@
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
 # Settings Modem
-Service > Huawei
-
-Settings Modem
-- Router IP
-- Username
-- Password
-
-Telegram Bot
-- Telegram Token BOT
-- Chat ID
-- Message Thread ID (Topik Telegram)
-
-Duration
-- Ping Duration (s)
-- Modem Path (Location Script)
-
+Service > Huawei Monitor
 Save & Apply First and Start Services
+
 <p>
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="Huawei" width="auto" height="570"></p>
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/menusetings.JPG" alt="Huawei" width="auto" height="540"></p>
 
 
 # Dependency
