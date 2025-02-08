@@ -1,4 +1,4 @@
-#  Huawei Monitoring by Aryo Brokolly
+#  Huawei Monitor by Aryo Brokolly
 
 
 # Suport Modem
