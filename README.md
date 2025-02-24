@@ -27,7 +27,8 @@ Save & Apply First and Start Services
 - Python3
 - Telegram Bot
 <p></p>
-
+# LOG
+<p>var/log/huawei_monitor.log</p>
 # Buang Rp. 1000 Rupiahmu lur Kesini
 <p>
 <img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/1000.jpg" alt="qris1000" width="auto" height="560"></p>
