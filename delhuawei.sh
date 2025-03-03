@@ -22,22 +22,22 @@ clear
 uninstall_files()
 {		
 
-	  	echo "deleting file huawei monitor..."
+	echo "deleting file huawei monitor..."
     	clear
         rm $DIR/huawei.py
         mv $DIR/huawei_x.py $DIR/huawei.py
-		sleep 1
-	   	rm $MODEL/huawey.lua
-	    clear
-		sleep 1
-	 	rm $DIR/huawei
-	    clear
-		sleep 1
-	 	rm $CONF/huawey
+	sleep 1
+	rm $MODEL/huawey.lua
+	clear
+	sleep 1
+	rm $DIR/huawei
+	clear
+	sleep 1
+	rm $CONF/huawey
         clear
         sleep 1
-  		rm $CON/huawey.lua
- 		finish
+  	rm $CON/huawey.lua
+ 	finish
 }
 
 
