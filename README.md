@@ -14,6 +14,11 @@
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
+# How to UN-Install
+- Run script on terminal Openwrt:
+```
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/delhuawei.sh')"
+```
 # Settings Modem
 Service > Huawei Monitor
 Save & Apply First and Start Services
