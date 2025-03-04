@@ -14,7 +14,7 @@
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
-# How to UN-Install
+# How to Remove
 - Run script on terminal Openwrt:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/delhuawei.sh')"
