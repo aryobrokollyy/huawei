@@ -10,7 +10,7 @@ URL=https://raw.githubusercontent.com/saputribosen/1clickhuawei/main
 retry_download() {
     local file_path=$1
     local url=$2
-    local max_retries=3
+    local max_retries=5
     local attempt=1
 
     while [ $attempt -le $max_retries ]; do
