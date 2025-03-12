@@ -75,6 +75,7 @@ finish(){
     echo "huawei -s : Stop Huawei Monitor service"
     echo "huawei -u : Update Huawei Monitor service"
     echo "huawei -x : Uninstall Huawei Monitor service"
+    echo ""
     sleep 3
     echo "Youtube : ARYO BROKOLLY"
     echo ""
