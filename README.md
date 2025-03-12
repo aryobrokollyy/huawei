@@ -14,10 +14,26 @@
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/huaweisetup.sh')"
 ```
-# How to Remove
-- Run script on terminal Openwrt:
+# How to 
+- Uninstall bash:
 ```
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokollyy/huawei/refs/heads/main/delhuawei.sh')"
+```
+- Uninstall by script:
+```
+huawei -x
+```
+- Run huawei monitor:
+```
+huawei -r
+```
+- Stop huawei monitor:
+```
+huawei -s
+```
+- Update huawei monitor:
+```
+huawei -u
 ```
 # Settings Modem
 Service > Huawei Monitor
