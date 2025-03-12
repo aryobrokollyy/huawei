@@ -71,7 +71,10 @@ finish(){
     echo ""
     echo "TOOLS : HUAWEI MONITOR"
     echo "INSTALL SUCCESSFULLY ;)"
-    echo ""
+    echo "huawei -r : Run Huawei Monitor service"
+    echo "huawei -s : Stop Huawei Monitor service"
+    echo "huawei -u : Update Huawei Monitor service"
+    echo "huawei -x : Uninstall Huawei Monitor service"
     sleep 3
     echo "Youtube : ARYO BROKOLLY"
     echo ""
