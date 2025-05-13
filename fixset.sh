@@ -26,9 +26,10 @@ download_files() {
     clear
     opkg update
     clear
-
+    echo ""
+    echo ""
     echo "Install Fix TTL 65.."
-    sleep 3
+    sleep 5
     clear
     mkdir -p $CON
     sleep 1
