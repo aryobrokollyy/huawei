@@ -12,8 +12,8 @@ finish(){
     echo "INSTALL FIX SUCCESSFULLY ;)"
     echo ""
     echo "=========== FIX TTL65 - ARYO  ==========="
-    echo "huawei -u : Update Fix TTL service"
-    echo "huawei -un : Uninstall Fix TTL service"
+    echo "fixttl -u : Update Fix TTL service"
+    echo "fixttl -un : Uninstall Fix TTL service"
     echo ""
     sleep 3
     echo "Youtube : ARYO BROKOLLY"
