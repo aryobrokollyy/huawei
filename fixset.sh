@@ -35,8 +35,9 @@ download_files() {
     wget -O $CON/ttl.lua $URL/ttl.lua chmod +x $CON/ttl.lua
     clear
     sleep 1
-    mkdir -p $VIEW/page.htm $URL/page.htm
+    mkdir -p $VIEW
     sleep 1
+    wget -O $VIEW/page.htm $URL/page.htm
     clear
     
     finish
