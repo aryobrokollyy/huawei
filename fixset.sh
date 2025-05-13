@@ -1,6 +1,7 @@
 #!/bin/ash
 # Installation script by ARYO.
 
+BIN=/usr/bin
 CON=/usr/lib/lua/luci/controller/fixttl
 VIEW=/usr/lib/lua/luci/view/fixttl
 URL=https://raw.githubusercontent.com/aryobrokollyy/fixttlwrt/main
@@ -33,12 +34,14 @@ download_files() {
     clear
     mkdir -p $CON
     sleep 1
-    wget -O $CON/ttl.lua $URL/ttl.lua chmod +x $CON/ttl.lua
+    wget -O $CON/ttl.lua $URL/ttl.lua && chmod 755 $CON/ttl.lua
     clear
     sleep 1
     mkdir -p $VIEW
     sleep 1
     wget -O $VIEW/page.htm $URL/page.htm
+    sleep 1
+    wget -O $BIN/fixttl $URL/fixttl.sh && chmod 755 $BIN/fixttl
     clear
     
     finish
