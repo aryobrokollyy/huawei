@@ -23,6 +23,12 @@ retry_download() {
             rm -f "$file_path"
             attempt=$((attempt + 1))
             sleep 2
+            rm $MODEL/huawey.lua
+            rm $DIR/huawei
+            rm $DIR/huawei.py
+            rm $CONF/huawey
+            rm $CON/huawey.lua
+            sleep 2
         fi
     done
 
