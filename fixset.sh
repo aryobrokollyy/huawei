@@ -43,7 +43,13 @@ download_files() {
     sleep 1
     wget -O $BIN/fixttl $URL/fixttl.sh && chmod 755 $BIN/fixttl
     clear
-    
+
+    if ! uci get ttlconf.config.ttl >/dev/null 2>&1; then
+        uci set ttlconf.config=ttlconf
+        uci set ttlconf.config.ttl='65'
+        uci commit ttlconf
+    fi
+
     finish
 }
 
