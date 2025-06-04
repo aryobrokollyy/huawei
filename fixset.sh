@@ -12,7 +12,7 @@ finish(){
     echo ""
     echo "INSTALL FIX SUCCESSFULLY ;)"
     echo ""
-    echo "=========== FIX TTL65 - ARYO  ==========="
+    echo "=========== FIX TTL - ARYO  ==========="
     echo "fixttl -u : Update Fix TTL service"
     echo "fixttl -un : Uninstall Fix TTL service"
     echo ""
@@ -29,7 +29,7 @@ download_files() {
     clear
     echo ""
     echo ""
-    echo "Install Fix TTL 65.."
+    echo "Install Fix TTL..."
     sleep 5
     clear
     mkdir -p $CON
