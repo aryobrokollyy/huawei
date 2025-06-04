@@ -1,0 +1,2 @@
+config ttlconf 'config'
+    option ttl '65'
