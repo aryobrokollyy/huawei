@@ -3,6 +3,7 @@
 
 BIN=/usr/bin
 CON=/usr/lib/lua/luci/controller/fixttl
+CONFIG=/etc/config
 VIEW=/usr/lib/lua/luci/view/fixttl
 URL=https://raw.githubusercontent.com/aryobrokollyy/fixttlwrt/main
 
@@ -31,7 +32,9 @@ download_files() {
     echo ""
     echo "Install Fix TTL..."
     sleep 5
+    wget -O $CONFIG/ttlconf $URL/ttlconf
     clear
+    sleep 1
     mkdir -p $CON
     sleep 1
     wget -O $CON/ttl.lua $URL/ttl.lua && chmod 755 $CON/ttl.lua
@@ -43,13 +46,6 @@ download_files() {
     sleep 1
     wget -O $BIN/fixttl $URL/fixttl.sh && chmod 755 $BIN/fixttl
     clear
-
-    if ! uci get ttlconf.config.ttl >/dev/null 2>&1; then
-        uci set ttlconf.config=ttlconf
-        uci set ttlconf.config.ttl='65'
-        uci commit ttlconf
-    fi
-
     finish
 }
 
