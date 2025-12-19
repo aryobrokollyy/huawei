@@ -50,6 +50,6 @@ Save & Apply First and Start Services
 <p></p>
 # LOG
 <p>var/log/huawei_monitor.log</p>
-# Buang Rp. 1000 Rupiahmu lur Kesini
+# Bantu lur buat kembangin script
 <p>
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/1000.jpg" alt="qris1000" width="auto" height="560"></p>
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/kyuris.jpg" alt="qris1000" width="auto" height="560"></p>
