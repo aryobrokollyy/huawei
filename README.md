@@ -52,4 +52,4 @@ Save & Apply First and Start Services
 <p>var/log/huawei_monitor.log</p>
 # Bantu lur buat kembangin script
 <p>
-<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/kyuris.jpg" alt="qris1000" width="auto" height="560"></p>
+<img src="https://raw.githubusercontent.com/aryobrokollyy/huawei/main/img/kiyuris.jpg" alt="qris1000" width="auto" height="560"></p>
