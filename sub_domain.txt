@@ -1,3 +1,5 @@
+KUMPULAN BUG BIZ:
+
 account-gopay.midtrans.com
 add.customlinks.appsflyer.com
 ads.ruangguru.com
